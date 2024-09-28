@@ -4,6 +4,7 @@
 
 #include <bits/stdc++.h>
 
+void IS_CUTPOINT(int v);
 int n; // number of nodes
 vector<vector<int>> adj; // adjacency list of graph
 
