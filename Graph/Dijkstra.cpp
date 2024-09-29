@@ -56,7 +56,7 @@ vector<int> dijkstra1(int V, vector<vector<int>> adj[], int S)
     return d;
 }
 
-// O((V+E)log(E))
+// O((V+E)log(V))
 vi dijkstra2(int V, vii adj[], int S)
 {
     vector<int> d;
